@@ -1,9 +1,13 @@
 import React from 'react'
 import { Link } from 'gatsby'
 
+// import './header.module.scss'
+import headerStyles from './header.module.scss'
+
+
 export default function Header() {
     return (
-        <header>
+        <header className={headerStyles.header}>
             <h1>The Great Gatsby Bootcamp</h1>
             <nav>
                 <ul>
