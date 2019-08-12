@@ -8,7 +8,11 @@ import headerStyles from './header.module.scss'
 export default function Header() {
     return (
         <header className={headerStyles.header}>
-            <h1>The Great Gatsby Bootcamp</h1>
+            <h1>
+                <Link to='/'>
+                    The Great Gatsby Bootcamp
+                </Link>
+            </h1>
             <nav>
                 <ul>
                     <li><Link to='/'>Home</Link></li>
