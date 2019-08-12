@@ -9,7 +9,7 @@ export default function Header() {
     return (
         <header className={headerStyles.header}>
             <h1>
-                <Link to='/'>
+                <Link className={headerStyles.title} to='/'>
                     The Great Gatsby Bootcamp
                 </Link>
             </h1>
