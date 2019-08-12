@@ -10,7 +10,7 @@ export default function Header() {
         <header className={headerStyles.header}>
             <h1>
                 <Link className={headerStyles.title} to='/'>
-                    The Great Gatsby Bootcamp
+                    Moses A. Samuel
                 </Link>
             </h1>
             <nav>
