@@ -8,6 +8,6 @@ module.exports = {
                 path: `${__dirname}/src/`
             }
         },
-        'gatsby-transfomer-remark'
+        'gatsby-transformer-remark'
     ] 
 }
