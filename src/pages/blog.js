@@ -31,7 +31,7 @@ export default function BlogPage() {
                 <ol className={blogStyles.posts}>
                     {allPosts.allMarkdownRemark.edges.map(function renderBlogPostPreview(edge) {
                         return (
-                            <li>
+                            <li className={blogStyles.post}>
                                 <Link to={`/blog/${edge.node.fields.slug}`}>
                                     <h2>{edge.node.frontmatter.title}</h2>
                                     <p>{edge.node.frontmatter.date}</p>
